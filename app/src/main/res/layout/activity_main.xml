@@ -26,7 +26,7 @@
         android:layout_marginTop="15dp"
         android:text="AGE"
         android:textColor="@color/pureWhite"
-        android:background="@color/teal_700"
+        android:background="@color/orange"
         android:padding="10dp"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -63,7 +63,6 @@
         android:textSize="20sp"
         />
     <TextView
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -79,7 +78,7 @@
         android:text="Age in minutes:"
         android:textStyle="bold"
         android:textColor="@color/textColor"
-        android:textSize="20sp"
+        android:textSize="15sp"
         />
 
     <TextView
@@ -88,11 +87,71 @@
         android:layout_height="wrap_content"
         android:text="0"
         android:layout_marginTop="15dp"
-        android:textColor="@color/textColor"
+        android:textColor="@color/gray"
         android:textStyle="bold"
-        android:textSize="30sp"
+        android:textSize="25sp"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Age in hours:"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvSelectedDateInHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Age in Days:"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvSelectedDateInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:textSize="25sp"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Age in Years:"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvSelectedDateInYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
 
 
 </LinearLayout>
